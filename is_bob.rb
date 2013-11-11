@@ -9,7 +9,7 @@ class IsBob < Sinatra::Base
     if y['locations']['Bob Briski'] == 'mtv'
       return 'Yes'
     else
-      return "Nope. In #{y['locations']['Bob Briski']}"
+      return "Nope. #{y['locations']['Bob Briski']}"
     end
   end
 end
